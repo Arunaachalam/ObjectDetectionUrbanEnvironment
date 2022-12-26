@@ -30,3 +30,15 @@ A training is done on the reference model and the Tensor flow plots are logged. 
 
 ![alt text](./Results/Tensorflow/InitialTraining/InitialTraining_loss.png)
 ![alt text](./Results/Tensorflow/InitialTraining/InitialTraining_LR.png)
+
+## Step 4: Improve the Performance
+On the new traiining config file, it was noted that only simpler image augmentation was available. So the following augmentation were added on the new training
+- random_black_pathes
+- random_rgb_to_gray
+- random_adjust_brightness
+- random_adjust_contrast
+- random_adjust_saturation
+- random_adjust_hue
+- random_image_scale
+- random_distort_color
+
