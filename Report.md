@@ -28,4 +28,5 @@ With the given script the new config file was generated.
 ## Step 3: Model Training and Evaluation
 A training is done on the reference model and the Tensor flow plots are logged. THe experiment is run for about 2500 steps. The learning rate reaches its max at 212. This may be due to the skewed dataset, which contains very low number of cyclists which makes the model underfit for detecting cyclists. The model is also over fit for vehicles. 
 
-![alt text](./Results/Tensorflow/InitialTraining.png)
+![alt text](./Results/Tensorflow/InitialTraining/InitialTraining_loss.png)
+![alt text](./Results/Tensorflow/InitialTraining/InitialTraining_LR.png)
