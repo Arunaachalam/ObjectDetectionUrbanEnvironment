@@ -42,3 +42,8 @@ On the new traiining config file, it was noted that only simpler image augmentat
 - random_image_scale
 - random_distort_color
 
+![alt text](./Results/Tensorflow/TuningParameters/TuningParam_loss.png)
+![alt text](./Results/Tensorflow/TuningParameters/TuningParam_LR.png)
+
+## Step 5: Creating animations
+WIth the improved model the following animations are made
